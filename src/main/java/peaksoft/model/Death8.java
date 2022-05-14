@@ -2,15 +2,13 @@ package peaksoft.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import peaksoft.KoscheiTheDeathless;
 
 @Component
-public class Needle7 {
+public class Death8 {
 
     @Autowired
-    private Death8 death;
+    private KoscheiTheDeathless koscheiTheDeathless;
 
-    @Override
-    public String toString() {
-        return ", смерть Кощея на игле >>" ;
-    }
+
 }
